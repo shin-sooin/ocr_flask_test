@@ -4,6 +4,7 @@ import json
 import io
 from urllib import request as ur
 from PIL import Image
+import logging
 
 class Model:
     def ocr(self, imgUrl):
@@ -13,7 +14,7 @@ class Model:
             f = io.BytesIO(res)
             img = Image.open(f)
             text = str(pytesseract.image_to_string(img, lang='kor+eng'))
-            # logging.debug(texts)
+            logging.debug(texts)
             return text
 
         texts = ""
