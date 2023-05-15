@@ -22,7 +22,8 @@ class Model:
 
         try:
             texts = img_open(imgUrl)
-        except:
+        except Exception as e:
+            texts=str(e)
             error_message = "Please check image contains text"
 
         context = {
