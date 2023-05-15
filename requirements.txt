@@ -1,18 +1,17 @@
-# click @ file:///opt/concourse/worker/volumes/live/2d66025a-4d79-47c4-43be-6220928b6c82/volume/click_1646056610594/work
+click==8.0.4
 distlib==0.3.6
 filelock==3.8.0
 Flask==2.2.2
-# itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
-# Jinja2 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_6adj7x0ejx/croot/jinja2_1666908137966/work
-# MarkupSafe @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_d4a9444f-bd4c-4043-b47d-cede33979b0fve7bm42r/croots/recipe/markupsafe_1654597878200/work
-# packaging @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_c3zlhpboab/croot/packaging_1678965318579/work
+itsdangerous==2.0.1
+Jinja2==3.1.2
+MarkupSafe==2.1.1
+numpy==1.24.3
+packaging==23.0
 Pillow==9.4.0
-pip==23.0.1
 pipenv==2022.11.30
 platformdirs==2.5.4
-# pytesseract @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_8en1z_vz4v/croot/pytesseract_1666335077723/work
+pyocr==0.8.3
 pytesseract==0.3.10
 virtualenv==20.17.0
 virtualenv-clone==0.5.7
-wheel==0.38.4
-# Werkzeug @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_fegt3z60s3/croot/werkzeug_1679489762631/work
+Werkzeug==2.2.3
