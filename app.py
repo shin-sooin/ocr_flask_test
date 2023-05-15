@@ -1,5 +1,6 @@
 from flask import Flask, request, redirect
 from model import Model
+import logging
 
 app = Flask(__name__)
 
@@ -9,10 +10,10 @@ M=Model()
 def hello_world():  # put application's code here
     return 'Hello World!'
 
-@app.route('/ocr', methods={'POST', 'GET'})
+@app.route('/ocr', methods={'GET','POST'})
 def ocr():
     if request.method == 'GET':
-        id=str(request.args.get('id'))
+        id = str(request.args.get('id'))
     elif request.method == 'POST':
         id = str(request.form['id'])
     print(id)
@@ -23,6 +24,5 @@ def ocr():
     else:
         return M.ocr(id)
 
-
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
