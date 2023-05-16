@@ -10,8 +10,8 @@ Pillow==9.4.0
 pip==23.0.1
 pipenv==2022.11.30
 platformdirs==2.5.4
-# pytesseract @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_8en1z_vz4v/croot/pytesseract_1666335077723/work
-pytesseract==0.3.10
+pytesseract @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_8en1z_vz4v/croot/pytesseract_1666335077723/work
+# pytesseract==0.3.10
 virtualenv==20.17.0
 virtualenv-clone==0.5.7
 wheel==0.38.4
