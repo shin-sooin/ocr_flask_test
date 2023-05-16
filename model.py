@@ -7,7 +7,7 @@ from PIL import Image
 import logging
 
 class Model:
-    pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
+    # pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
     def ocr(self, imgUrl):
         def img_open(img_url):
             text = "222"
